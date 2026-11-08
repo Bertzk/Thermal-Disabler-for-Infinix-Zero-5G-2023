@@ -1,0 +1,6 @@
+id=thermalkillereclipse
+name=Eclipse Thermal Disabler
+version=v1
+versionCode=1
+author=@Bertz
+description=Untuk mematikan thermal sepenuhnya di device Infinix Zero 5G (2023) dengan chipset Mediatek Dimensity 1080/920. Credit : @MasRamms (Thanks for making enhanced disable thermal script)
