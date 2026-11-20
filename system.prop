@@ -1,0 +1,30 @@
+#Thermal Disable kali ye?
+ro.esports.thermal_config.support=0
+ro.tran_thermal_cc_support=0
+ro.dar.thermal_core.support=0
+ro.esports.thermal_config.support=0
+persist.sys.camera_start_optimize=1
+
+# Graphic Performance
+debug.enabletr=true
+debug.egl.hw=1
+debug.overlayui.enable=1
+debug.qctwa.preservebuf=1
+debug.performance.tuning=1
+debug.sf.hw=1
+dev.pm.dyn_samplingrate=1
+ro.config.disable.hw_accel=false
+ro.fb.mode=1
+ro.product.gpu.driver=1
+ro.sf.compbypass.enable=0
+ro.vold.umsdirtyratio=20
+persist.sys.ui.hw=1
+video.accelerate.hw=1
+
+# Rendering GPU Performance
+debug.cpurend.vsync=false
+debug.hwui.renderer=skiagl
+debug.renderengine.backend=skiagl
+debug.composition.type=c2d
+persist.sys.composition.type=c2d
+ro.hardware.egl=mali

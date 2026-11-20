@@ -1,3 +1,4 @@
+#MWEHEHEHEHEEH DISINI GWE DISABLE THERMAL LU PADA
 sleep 14
 # Universal Thermal Disabler
 echo 0 > /sys/class/thermal/thermal_zone*/mode
@@ -63,3 +64,7 @@ sleep 1
 stop thermal-hal
 sleep 1
 stop android.thermal-hal
+sleep 1
+echo 3 0 0 > /proc/gpufreq/gpufreq_limit_table
+sleep 1
+cmd thermalservice override-status 0
